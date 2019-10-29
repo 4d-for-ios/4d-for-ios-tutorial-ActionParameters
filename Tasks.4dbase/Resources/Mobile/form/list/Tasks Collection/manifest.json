@@ -1,0 +1,7 @@
+{
+  "type": "listform",
+  "name": "Tasks Collection",
+  "fields": {
+    "count": 4
+  }
+}

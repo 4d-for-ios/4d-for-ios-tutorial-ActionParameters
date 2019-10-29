@@ -1,0 +1,15 @@
+{
+   "name": "PriorityIntegerToImage",
+   "type": ["integer"],
+   "binding": "imageNamed",
+   "choiceList": {
+   					"0":"high.png",
+   					"1":"low.png",
+   					"2":"none.png"
+   					   					},
+   					   "assets": {
+  "size": {
+   "width": 50, "height": 50
+		}
+	}
+}

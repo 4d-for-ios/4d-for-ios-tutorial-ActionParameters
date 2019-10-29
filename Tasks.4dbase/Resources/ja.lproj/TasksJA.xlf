@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+    <file datatype="x-STR#" original="undefined" product-version="v15" source-language="en-US" target-language="ja-JP">
+    <header>
+      <note />
+    </header>
+    <body>
+      <group resname="Menu Bar #1">
+        <trans-unit resname="OpenTaskManager">
+          <target>タスクマネージャー…</target>
+        </trans-unit>
+      </group>
+      <group resname="taskInput">
+        <trans-unit resname="PREV">
+          <target>前に</target>
+        </trans-unit>
+        <trans-unit resname="NEXT">
+          <target>次へ</target>
+        </trans-unit>
+        <trans-unit resname="Start Date:">
+          <target>開始日:</target>
+        </trans-unit>
+        <trans-unit resname="Category:">
+          <target>カテゴリー:</target>
+        </trans-unit>
+        <trans-unit resname="Status:">
+          <target>ステータス:</target>
+        </trans-unit>
+        <trans-unit resname="Due Date:">
+          <target>予定日:</target>
+        </trans-unit>
+        <trans-unit resname="Priority:">
+          <target>優先度:</target>
+        </trans-unit>
+        <trans-unit resname="Complete:">
+          <target>完了:</target>
+        </trans-unit>
+        <trans-unit resname="High">
+          <target>高</target>
+        </trans-unit>
+        <trans-unit resname="Low">
+          <target>低</target>
+        </trans-unit>
+        <trans-unit resname="None">
+          <target>なし</target>
+        </trans-unit>
+        <trans-unit resname="%">
+          <target>%</target>
+        </trans-unit>
+        <trans-unit resname="Delete">
+          <target>削除</target>
+        </trans-unit>
+        <trans-unit resname="Save">
+          <target>保存</target>
+        </trans-unit>
+        <trans-unit resname="Cancel">
+          <target>キャンセル</target>
+        </trans-unit>
+      </group>
+      <group resname="searchText_t">
+        <trans-unit resname="All Tasks">
+          <target>すべてのタスク</target>
+        </trans-unit>
+        <trans-unit resname="Incomplete Tasks">
+          <target>未完了のタスク</target>
+        </trans-unit>
+        <trans-unit resname="Completed Tasks">
+          <target>完了したタスク</target>
+        </trans-unit>
+        <trans-unit resname="All">
+          <target>すべて</target>
+        </trans-unit>
+        <trans-unit resname="Incomplete">
+          <target>未完了</target>
+        </trans-unit>
+        <trans-unit resname="Completed">
+          <target>完了</target>
+        </trans-unit>
+      </group>
+      <group resname="SET WINDOW TITLE">
+        <trans-unit resname="New Task">
+          <target>タスク作成中</target>
+        </trans-unit>
+        <trans-unit resname="Edit Task">
+          <target>タスク編集中</target>
+        </trans-unit>
+        <trans-unit resname="NEW">
+          <target>追加</target>
+        </trans-unit>
+        <trans-unit resname="Tasks Manager">
+          <target>タスクマネージャー</target>
+        </trans-unit>
+      </group>
+      <group resname="Placeholders">
+        <trans-unit resname="TITLE">
+          <target>タイトル</target>
+        </trans-unit>
+        <trans-unit resname="TASK DESCRIPTION">
+          <target>タスクの説明</target>
+        </trans-unit>
+        <trans-unit resname="Start Date">
+          <target>開始日</target>
+        </trans-unit>
+        <trans-unit resname="Due Date">
+          <target>完了日</target>
+        </trans-unit>
+        <trans-unit resname="None">
+          <target>なし</target>
+        </trans-unit>
+      </group>
+      <group resname="Task Status">
+          <trans-unit resname="Not Started">
+            <target>着手前</target>
+          </trans-unit>
+          <trans-unit resname="In Progress">
+            <target>進行中</target>
+          </trans-unit>
+          <trans-unit resname="Completed">
+            <target>完了</target>
+          </trans-unit>
+          <trans-unit resname="Postponed">
+            <target>延期</target>
+          </trans-unit>
+          <trans-unit resname="Task Status">
+            <target>Task Status JP</target>
+          </trans-unit>
+      </group>
+      <group resname="vRecNum">
+        <trans-unit resname=" of ">
+          <target> / </target>
+        </trans-unit>
+      </group>
+      <group resname="Tips">
+        <trans-unit resname="Cancel">
+          <target>キャンセル</target>
+        </trans-unit>
+        <trans-unit resname="Delete Record">
+          <target>レコード削除</target>
+        </trans-unit>
+        <trans-unit resname="First Record">
+          <target>先頭レコード</target>
+        </trans-unit>
+        <trans-unit resname="Last Record">
+          <target>最終レコード</target>
+        </trans-unit>
+        <trans-unit resname="Next Record">
+          <target>次レコード</target>
+        </trans-unit>
+        <trans-unit resname="Accept">
+          <target>確定</target>
+        </trans-unit>
+        <trans-unit resname="Previous Record">
+          <target>前レコード</target>
+        </trans-unit>
+        <trans-unit resname="Record Position within Selection">
+          <target>セレクション内におけるレコードの順番</target>
+        </trans-unit>
+      </group>
+      <group resname="taskList">
+        <trans-unit resname="Title">
+          <target>タイトル</target>
+        </trans-unit>
+        <trans-unit resname="Due Date">
+          <target>予定日</target>
+        </trans-unit>
+        <trans-unit resname="Progress">
+          <target>進捗状況</target>
+        </trans-unit>
+      </group>
+      <group resname="updateTaskRecordFound">
+        <trans-unit resname="No tasks">
+          <target>0件のタスク</target>
+        </trans-unit>
+        <trans-unit resname="1 task">
+          <target>1件のタスク</target>
+        </trans-unit>
+        <trans-unit resname=" tasks">
+          <target>件のタスク</target>
+        </trans-unit>
+      </group>
+      <group resname="Categories">
+        <trans-unit resname="All Categories">
+          <target>すべてのカテゴリー</target>
+        </trans-unit>
+        <trans-unit resname="Untitled">
+          <target>名称未定</target>
+        </trans-unit>
+      </group>
+      <group resname="categoryName_at">
+        <trans-unit resname="New">
+          <target>追加</target>
+        </trans-unit>
+        <trans-unit resname="Rename">
+          <target>名称変更</target>
+        </trans-unit>
+        <trans-unit resname="Delete">
+          <target>削除</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

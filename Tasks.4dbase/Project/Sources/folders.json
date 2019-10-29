@@ -1,0 +1,73 @@
+﻿{
+	"Compiler Methods": {
+		"methods": [
+			"Compiler_Arrays",
+			"Compiler_Methods",
+			"Compiler_Variables"
+		]
+	},
+	"Default Forms": {
+		"forms": [
+			"[Category]Input",
+			"[Category]Output",
+			"[Tasks]Input",
+			"[Tasks]Output"
+		]
+	},
+	"Default Tables": {
+		"tables": [
+			"Category",
+			"Tasks"
+		]
+	},
+	"Tasks": {
+		"methods": [
+			"createTaskWindow",
+			"formatTaskStartus",
+			"initializeTaskInputForm",
+			"InputOnValidate",
+			"loadTaskCategorySelection",
+			"openTaskManager",
+			"searchTasks",
+			"updateTaskRecordFound"
+		],
+		"forms": [
+			"[Tasks]taskInput2",
+			"taskCategoryList",
+			"taskInput",
+			"taskList1",
+			"taskManager"
+		]
+	},
+	"Utilities": {
+		"methods": [
+			"autoFillSetObject",
+			"openFormWindow",
+			"resizePicture",
+			"startupProcedure"
+		]
+	},
+	"zDefault Folder": {
+		"groups": [
+			"Default Forms",
+			"Default Tables"
+		]
+	},
+	"trash": {
+		"tables": [
+			"(Table_1_1)",
+			"(Table_1_2)",
+			"(Table_1_3)",
+			"(Table_1_4)",
+			"(Table_1_5)",
+			"(Table_1)",
+			"(Table_2_1)",
+			"(Table_2_2)",
+			"(Table_2_3)",
+			"(Table_2)",
+			"(Table_3_1)",
+			"(Table_3)",
+			"(Table_4)"
+		]
+	}
+}

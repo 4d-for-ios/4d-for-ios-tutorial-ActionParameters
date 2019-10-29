@@ -1,0 +1,11 @@
+{
+   "name": "PriorityIntegerToImage",
+   "type": ["integer"],
+   "binding": "localizedText",
+   "choiceList": {
+   					"0":"High Priority",
+   					"1":"Low Priority",
+   					"2":"No Priority"
+   					   					}
+	}
+}

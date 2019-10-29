@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+    <file datatype="x-STR#" original="undefined" product-version="v15" source-language="en-US" target-language="en">
+    <header>
+      <note />
+    </header>
+    <body>
+      <group resname="Menu Bar #1">
+        <trans-unit resname="OpenTaskManager">
+          <target>Open Task Manager</target>
+        </trans-unit>
+      </group>
+      <group resname="taskInput">
+        <trans-unit resname="PREV">
+          <target>PREV</target>
+        </trans-unit>
+        <trans-unit resname="NEXT">
+          <target>NEXT</target>
+        </trans-unit>
+        <trans-unit resname="Start Date:">
+          <target>Start Date:</target>
+        </trans-unit>
+        <trans-unit resname="Category:">
+          <target>Category:</target>
+        </trans-unit>
+        <trans-unit resname="Status:">
+          <target>Status:</target>
+        </trans-unit>
+        <trans-unit resname="Due Date:">
+          <target>Due Date:</target>
+        </trans-unit>
+        <trans-unit resname="Priority:">
+          <target>Priority:</target>
+        </trans-unit>
+        <trans-unit resname="Complete:">
+          <target>Complete:</target>
+        </trans-unit>
+        <trans-unit resname="High">
+          <target>High</target>
+        </trans-unit>
+        <trans-unit resname="Low">
+          <target>Low</target>
+        </trans-unit>
+        <trans-unit resname="None">
+          <target>None</target>
+        </trans-unit>
+        <trans-unit resname="%">
+          <target>%</target>
+        </trans-unit>
+        <trans-unit resname="Delete">
+          <target>Delete</target>
+        </trans-unit>
+        <trans-unit resname="Save">
+          <target>Save</target>
+        </trans-unit>
+        <trans-unit resname="Cancel">
+          <target>Cancel</target>
+        </trans-unit>
+      </group>
+      <group resname="searchText_t">
+        <trans-unit resname="All Tasks">
+          <target>All Tasks</target>
+        </trans-unit>
+        <trans-unit resname="Incomplete Tasks">
+          <target>Incomplete Tasks</target>
+        </trans-unit>
+        <trans-unit resname="Completed Tasks">
+          <target>Completed Tasks</target>
+        </trans-unit>
+        <trans-unit resname="All">
+          <target>All</target>
+        </trans-unit>
+        <trans-unit resname="Incomplete">
+          <target>Incomplete</target>
+        </trans-unit>
+        <trans-unit resname="Completed">
+          <target>Completed</target>
+        </trans-unit>
+      </group>
+      <group resname="SET WINDOW TITLE">
+        <trans-unit resname="New Task">
+          <target>New Task</target>
+        </trans-unit>
+        <trans-unit resname="Edit Task">
+          <target>Edit Task</target>
+        </trans-unit>
+        <trans-unit resname="NEW">
+          <target>NEW</target>
+        </trans-unit>
+        <trans-unit resname="Tasks Manager">
+          <target>Tasks Manager</target>
+        </trans-unit>
+      </group>
+      <group resname="Placeholders">
+        <trans-unit resname="TITLE">
+          <target>TITLE</target>
+        </trans-unit>
+        <trans-unit resname="TASK DESCRIPTION">
+          <target>TASK DESCRIPTION</target>
+        </trans-unit>
+        <trans-unit resname="Start Date">
+          <target>Start Date</target>
+        </trans-unit>
+        <trans-unit resname="Due Date">
+          <target>Due Date</target>
+        </trans-unit>
+        <trans-unit resname="None">
+          <target>None</target>
+        </trans-unit>
+      </group>
+      <group resname="Task Status">
+          <trans-unit resname="Not Started">
+            <target>Not Started</target>
+          </trans-unit>
+          <trans-unit resname="In Progress">
+            <target>In Progress</target>
+          </trans-unit>
+          <trans-unit resname="Completed">
+            <target>Completed</target>
+          </trans-unit>
+          <trans-unit resname="Postponed">
+            <target>Postponed</target>
+          </trans-unit>
+          <trans-unit resname="Task Status">
+            <target>Task Status</target>
+          </trans-unit>
+      </group>
+      <group resname="vRecNum">
+        <trans-unit resname=" of ">
+          <target> of </target>
+        </trans-unit>
+      </group>
+      <group resname="Tips">
+        <trans-unit resname="Cancel">
+          <target>Cancel</target>
+        </trans-unit>
+        <trans-unit resname="Delete Record">
+          <target>Delete Record</target>
+        </trans-unit>
+        <trans-unit resname="First Record">
+          <target>First Record</target>
+        </trans-unit>
+        <trans-unit resname="Last Record">
+          <target>Last Record</target>
+        </trans-unit>
+        <trans-unit resname="Next Record">
+          <target>Next Record</target>
+        </trans-unit>
+        <trans-unit resname="Accept">
+          <target>Accept</target>
+        </trans-unit>
+        <trans-unit resname="Previous Record">
+          <target>Previous Record</target>
+        </trans-unit>
+        <trans-unit resname="Record Position within Selection">
+          <target>Record Position within Selection</target>
+        </trans-unit>
+      </group>
+      <group resname="taskList">
+        <trans-unit resname="Title">
+          <target>Title</target>
+        </trans-unit>
+        <trans-unit resname="Due Date">
+          <target>Due Date</target>
+        </trans-unit>
+        <trans-unit resname="Progress">
+          <target>Progress</target>
+        </trans-unit>
+      </group>
+      <group resname="updateTaskRecordFound">
+        <trans-unit resname="No tasks">
+          <target>No tasks</target>
+        </trans-unit>
+        <trans-unit resname="1 task">
+          <target>1 task</target>
+        </trans-unit>
+        <trans-unit resname=" tasks">
+          <target> tasks</target>
+        </trans-unit>
+      </group>
+      <group resname="Categories">
+        <trans-unit resname="All Categories">
+          <target>All Categories</target>
+        </trans-unit>
+        <trans-unit resname="Untitled">
+          <target>Untitled</target>
+        </trans-unit>
+      </group>
+      <group resname="categoryName_at">
+        <trans-unit resname="New">
+          <target>New</target>
+        </trans-unit>
+        <trans-unit resname="Rename">
+          <target>Rename</target>
+        </trans-unit>
+        <trans-unit resname="Delete">
+          <target>Delete</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

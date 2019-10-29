@@ -1,0 +1,16 @@
+{
+   "name": "StatusIntegerToImage",
+   "type": ["integer"],
+   "binding": "imageNamed",
+   "choiceList": {
+   					"1":"notstarted.png",
+   					"2":"inprogress.png",
+   					"3":"completed.png",
+                  "4":"postponed.png"
+   					},
+   					   "assets": {
+  "size": {
+   "width": 50, "height": 50
+		}
+	}
+}

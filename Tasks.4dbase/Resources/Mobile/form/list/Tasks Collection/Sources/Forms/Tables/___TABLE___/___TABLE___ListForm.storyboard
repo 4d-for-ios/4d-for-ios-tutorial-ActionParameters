@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ogb-fa-BrX">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--___TABLE_LABEL___-->
+        <scene sceneID="5Za-8D-3bM">
+            <objects>
+                <collectionViewController id="zhh-qx-xYL" customClass="___TABLE___ListForm" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="jDR-e3-zbF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.31128642555088065" green="0.31808189607724074" blue="0.34020756740196079" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pes-5K-EYY">
+                            <size key="itemSize" width="235" height="254"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="___TABLE___" id="NvA-KT-0ao">
+                                <rect key="frame" x="70" y="0.0" width="235" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="235" height="254"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YrC-0M-SNl">
+                                            <rect key="frame" x="0.0" y="0.0" width="235" height="254"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        </view>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="___FIELD_1_LABEL___" textAlignment="center" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="NWI-Ot-4Lz">
+                                            <rect key="frame" x="10" y="222.66666666666666" width="215" height="23.333333333333343"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_1___" value="___FIELD_1_BINDING_TYPE___"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xWw-G2-ZRd" customClass="___TABLE___CustomProgressBarList" customModuleProvider="target">
+                                            <rect key="frame" x="57.666666666666657" y="-12" width="120" height="120"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="120" id="fRZ-b4-EX3"/>
+                                                <constraint firstAttribute="height" constant="120" id="z21-ya-IR8"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_4___" value="graphnumber"/>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                                                    <color key="value" name="BackgroundColor"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                    <color key="value" name="BackgroundColor"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="bgThickness">
+                                                    <real key="value" value="7"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="thickness">
+                                                    <real key="value" value="6"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isHalfBar" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="&lt;___FIELD_4_LABEL___&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBr-a7-l4t">
+                                            <rect key="frame" x="4" y="57.333333333333343" width="219" height="35.666666666666657"/>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="26"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_4___" value="integer"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hs3-Ho-eXY">
+                                            <rect key="frame" x="6" y="87" width="215" height="16.666666666666671"/>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jLN-il-93Z">
+                                            <rect key="frame" x="13" y="12" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="bKi-Mo-OHE"/>
+                                                <constraint firstAttribute="height" constant="20" id="ozG-Ew-j4b"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_2___" value="___FIELD_2_BINDING_TYPE___"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cUi-DI-sAU">
+                                            <rect key="frame" x="166" y="0.0" width="69" height="69"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="69" id="iSO-3l-O1z"/>
+                                                <constraint firstAttribute="width" constant="69" id="lIu-7q-Alx"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_3___" value="___FIELD_3_BINDING_TYPE___"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" red="0.194075197" green="0.2341721058" blue="0.27582132819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dBr-a7-l4t" secondAttribute="trailing" constant="12" id="13q-Mb-WvP"/>
+                                    <constraint firstAttribute="bottom" secondItem="YrC-0M-SNl" secondAttribute="bottom" id="E92-m5-lc6"/>
+                                    <constraint firstItem="YrC-0M-SNl" firstAttribute="top" secondItem="NvA-KT-0ao" secondAttribute="top" id="OCZ-Hx-L0I"/>
+                                    <constraint firstItem="Hs3-Ho-eXY" firstAttribute="leading" secondItem="NvA-KT-0ao" secondAttribute="leadingMargin" constant="-2" id="PqW-gz-nVq"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="Hs3-Ho-eXY" secondAttribute="trailing" constant="6" id="Qhp-M1-4Xb"/>
+                                    <constraint firstItem="YrC-0M-SNl" firstAttribute="leading" secondItem="NvA-KT-0ao" secondAttribute="leading" id="S9x-zg-8YM"/>
+                                    <constraint firstItem="xWw-G2-ZRd" firstAttribute="top" secondItem="NvA-KT-0ao" secondAttribute="topMargin" constant="-20" id="SVc-pe-aCT"/>
+                                    <constraint firstAttribute="trailing" secondItem="cUi-DI-sAU" secondAttribute="trailing" id="VjG-8R-B8O"/>
+                                    <constraint firstItem="dBr-a7-l4t" firstAttribute="centerY" secondItem="xWw-G2-ZRd" secondAttribute="centerY" constant="27" id="WDU-ZX-R9e"/>
+                                    <constraint firstItem="jLN-il-93Z" firstAttribute="centerY" secondItem="cUi-DI-sAU" secondAttribute="centerY" constant="-12.5" id="cyA-hO-ZDp"/>
+                                    <constraint firstAttribute="trailing" secondItem="NWI-Ot-4Lz" secondAttribute="trailing" constant="10" id="d5s-K5-1oH"/>
+                                    <constraint firstItem="cUi-DI-sAU" firstAttribute="top" secondItem="NvA-KT-0ao" secondAttribute="top" id="emf-Um-Vdc"/>
+                                    <constraint firstAttribute="trailing" secondItem="YrC-0M-SNl" secondAttribute="trailing" id="ihk-64-7Li"/>
+                                    <constraint firstItem="Hs3-Ho-eXY" firstAttribute="top" secondItem="dBr-a7-l4t" secondAttribute="bottom" constant="-6.0000000000001137" id="iqr-Z2-6Pw"/>
+                                    <constraint firstAttribute="bottom" secondItem="NWI-Ot-4Lz" secondAttribute="bottom" constant="8" id="kXk-Ju-gBt"/>
+                                    <constraint firstItem="NWI-Ot-4Lz" firstAttribute="leading" secondItem="NvA-KT-0ao" secondAttribute="leading" constant="10" id="n66-zy-qF8"/>
+                                    <constraint firstItem="jLN-il-93Z" firstAttribute="leading" secondItem="NvA-KT-0ao" secondAttribute="leadingMargin" constant="5" id="nCJ-Lc-UE5"/>
+                                    <constraint firstItem="dBr-a7-l4t" firstAttribute="leading" secondItem="NvA-KT-0ao" secondAttribute="leading" constant="4" id="pPh-Fh-1bC"/>
+                                    <constraint firstItem="dBr-a7-l4t" firstAttribute="centerX" secondItem="xWw-G2-ZRd" secondAttribute="centerX" constant="-4.1666666666666572" id="tcR-eh-Azw"/>
+                                    <constraint firstItem="NWI-Ot-4Lz" firstAttribute="top" relation="greaterThanOrEqual" secondItem="xWw-G2-ZRd" secondAttribute="bottom" constant="30" id="vNe-6l-99W"/>
+                                </constraints>
+                                <size key="customSize" width="235" height="254"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___ENTITY_ACTIONS___"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="touch.zoomScale">
+                                        <real key="value" value="0.95999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="TmP-Gk-7ej" kind="show" identifier="showDetails" id="gh0-O0-9uL"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="zhh-qx-xYL" id="1wg-YJ-fBf"/>
+                            <outlet property="delegate" destination="zhh-qx-xYL" id="K2o-sE-fFY"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="___TABLE_LABEL___" id="HcW-CV-UPc">
+                        <barButtonItem key="leftBarButtonItem" image="previous" id="ghW-GP-x4C" userLabel="PreviousPage Button Item">
+                            <color key="tintColor" name="ForegroundColor"/>
+                            <connections>
+                                <action selector="previousPage:" destination="zhh-qx-xYL" id="1zk-Aq-3yo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="searchableField" value="___SEARCHABLE_FIELD___"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="sortField" value="___SORT_FIELD___"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="sectionFieldname" value="___SECTION_FIELD___"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="showSectionBar" value="NO"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="actions" value="___TABLE_ACTIONS___"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="searchBar" destination="eqo-z7-dF4" id="ZJt-km-6cn"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fFw-Ke-NsU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchBar contentMode="redraw" id="eqo-z7-dF4">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </objects>
+            <point key="canvasLocation" x="373.60000000000002" y="116.00985221674877"/>
+        </scene>
+        <!--___TABLE___DetailsForm-->
+        <scene sceneID="pzT-Ts-eNA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="___TABLE___DetailsForm" id="TmP-Gk-7ej" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZA2-Ia-mDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="112"/>
+        </scene>
+        <!--___TABLE_SHORT_LABEL___-->
+        <scene sceneID="43G-ax-Y26">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ogb-fa-BrX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="___TABLE_SHORT_LABEL___" image="___TABLE_ICON___" selectedImage="___TABLE_ICON___" id="65z-ho-M8H"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="06B-nF-C5E">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" name="BackgroundColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zhh-qx-xYL" kind="relationship" relationship="rootViewController" id="1sa-x6-x1q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9P-ml-O9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-361" y="112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="___TABLE_ICON___" width="25" height="25"/>
+        <image name="previous" width="16" height="16"/>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="0.35294117650000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ForegroundColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+    </resources>
+</document>
